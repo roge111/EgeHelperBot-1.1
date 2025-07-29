@@ -5,6 +5,7 @@
 2) `/user_id` - помогает по никнейму (username) узнать id пользователя
 
 ### Console
+---
 
 Вот как теперь выглядет код административной консоли
 
@@ -88,6 +89,7 @@ async def admin_manager(message: types.Message):
 ```
 
 ### /user_id
+---
 ```
 @dp.message(Command('user_id'))
 async def id_of_user(message: types.Message):
